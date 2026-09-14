@@ -1,0 +1,26 @@
+[
+    {
+        "file": "game:recipes/grid/claycovering",
+        "op": "addmerge",
+        "path": "/ingredients/T/allowedVariants",
+        "value": [
+            "axehead-valyriansteel",
+            "bladehead-falx-valyriansteel",
+            "hammerhead-valyriansteel",
+            "hoehead-valyriansteel",
+            "knifeblade-valyriansteel",
+            "pickaxehead-valyriansteel",
+            "prospectingpickhead-valyriansteel",
+            "sawblade-valyriansteel",
+            "scythehead-valyriansteel",
+            "shovelhead-valyriansteel",
+            "spearhead-valyriansteel",
+            "chisel-valyriansteel",
+            "shears-valyriansteel",
+            "crowbar-valyriansteel",
+            "cleaverhead-valyriansteel",
+            "tongsmetal-standard-valyriansteel",
+            "wrench-valyriansteel"
+        ]
+    }
+]

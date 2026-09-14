@@ -1,0 +1,75 @@
+[
+    {
+        "file": "game:itemtypes/tool/shovel",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": ["valyriansteel"]
+    },
+    {
+        "file": "game:itemtypes/tool/shovel",
+        "op": "addmerge",
+        "path": "/shapeByType/shovel-valyriansteel",
+        "value": { "base": "item/tool/shovel-copper" }
+    },
+    {
+        "file": "game:itemtypes/tool/shovel",
+        "op": "addmerge",
+        "path": "/miningspeedbytype/shovel-valyriansteel",
+        "value": { "soil": 8, "sand": 8, "gravel": 4.75, "snow": 4.75 }
+    },
+    {
+        "file": "game:itemtypes/tool/shovel",
+        "op": "addmerge",
+        "path": "/attackpowerbytype/shovel-valyriansteel",
+        "value": 2.75
+    },
+    {
+        "file": "game:itemtypes/tool/shovel",
+        "op": "addmerge",
+        "path": "/durabilitybytype/shovel-valyriansteel",
+        "value": 3500
+    },
+    {
+        "file": "game:itemtypes/tool/shovel",
+        "op": "move",
+        "frompath": "/guiTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/tool/shovel",
+        "op": "addmerge",
+        "path": "/guiTransformByType/@shovel-valyriansteel",
+        "value": {
+        "rotation": { "x": -115, "y": -28, "z": 139 },
+        "origin": { "x": 0.7, "y": 0, "z": 0.55 }
+        }
+    },
+    {
+        "file": "game:itemtypes/tool/shovel",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/guiTransformByType/*"
+    },
+    {
+        "file": "game:itemtypes/tool/shovel",
+        "op": "move",
+        "frompath": "/attributes/groundStorageTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/tool/shovel",
+        "op": "addmerge",
+        "path": "/attributes/groundStorageTransformByType/@shovel-valyriansteel",
+        "value": {
+        "translation": { "x": 0, "y": 0.59, "z": -0.15 },
+        "rotation": { "x": 13, "y": 88, "z": -87 },
+        "scale": 0.88
+        }
+    },
+    {
+        "file": "game:itemtypes/tool/shovel",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/groundStorageTransformByType/*"
+    }
+]

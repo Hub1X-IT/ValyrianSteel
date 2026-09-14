@@ -1,0 +1,93 @@
+[
+    {
+		"file": "game:recipes/grid/armor/scale",
+		"op": "addmerge",
+		"path": "/0/ingredients/S/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armor/scale",
+		"op": "addmerge",
+		"path": "/0/ingredients/C/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+    {
+		"file": "game:recipes/grid/armor/scale",
+		"op": "addmerge",
+		"path": "/1/ingredients/S/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armor/scale",
+		"op": "addmerge",
+		"path": "/1/ingredients/C/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+    {
+		"file": "game:recipes/grid/armor/scale",
+		"op": "addmerge",
+		"path": "/2/ingredients/S/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armor/scale",
+		"op": "addmerge",
+		"path": "/2/ingredients/C/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+
+	{
+		"file": "game:recipes/grid/armorrepair/scale",
+		"op": "addmerge",
+		"path": "/0/ingredients/B/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/scale",
+		"op": "addmerge",
+		"path": "/0/ingredients/S/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/scale",
+		"op": "addmerge",
+		"path": "/0/ingredients/C/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/scale",
+		"op": "addmerge",
+		"path": "/1/ingredients/B/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/scale",
+		"op": "addmerge",
+		"path": "/1/ingredients/S/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/scale",
+		"op": "addmerge",
+		"path": "/1/ingredients/C/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/scale",
+		"op": "addmerge",
+		"path": "/2/ingredients/B/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/scale",
+		"op": "addmerge",
+		"path": "/2/ingredients/S/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/scale",
+		"op": "addmerge",
+		"path": "/2/ingredients/C/allowedVariants",
+		"value": [ "valyriansteel" ]
+	}
+]

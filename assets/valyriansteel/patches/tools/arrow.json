@@ -1,0 +1,20 @@
+[
+    {
+        "file": "game:itemtypes/tool/arrow",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "game:itemtypes/tool/arrow",
+        "op": "addmerge",
+        "path": "/attributes/damageByType/*-valyriansteel",
+        "value": 2.75
+    },
+    {
+        "file": "game:itemtypes/tool/arrow",
+        "op": "addmerge",
+        "path": "/attributes/breakChanceOnImpactByType/*-valyriansteel",
+        "value": 0.07
+    }
+]

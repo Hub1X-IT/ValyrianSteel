@@ -1,0 +1,26 @@
+{
+    "ingredientPattern": "SOS,OHO,SOS",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+        "S": {
+            "type": "item",
+            "code": "bloodsteel",
+            "quantity": 5
+        },
+        "O": {
+            "type": "item",
+            "code": "bloodobsidian",
+            "quantity": 20
+        },
+        "H": {
+            "type": "item",
+            "code": "cannibalism:heart-raw"
+        }
+    },
+    "output": {
+        "type": "item",
+        "code": "rawvalyriansteel",
+        "quantity": 20
+    }
+}

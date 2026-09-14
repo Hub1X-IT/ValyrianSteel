@@ -1,0 +1,15 @@
+{
+  "type": "content",
+  "modid": "valyriansteel",
+  "name": "Valyrian Steel",
+  "description" : "Adds new type of steel to the game, based on Game of Thrones. Requires Butchering and Cannibalism.",
+  "authors": ["Hub1X","marmich102", "detonator"],
+  "version": "1.0.0",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "dependency": {
+    "game": "1.22.3",
+    "butchering": "1.13.5",
+    "cannibalism": "1.3.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"code": "bloodsteel",
+	"sealHours": 120,
+	"ingredients": [
+		{ "type": "item", "code": "butchering:bloodportion",  "litres": 4 },
+		{ "type": "item", "code": "game:powder-steel", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "bloodsteel", "quantity": 1 }
+}

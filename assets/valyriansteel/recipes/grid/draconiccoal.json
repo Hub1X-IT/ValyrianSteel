@@ -1,0 +1,32 @@
+{
+    "ingredientPattern": "ISI,BCB,ISI",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+        "C": {
+            "type": "item",
+            "code": "game:coke",
+            "quantity": 4
+        },
+        "S": {
+            "type": "item",
+            "code": "game:powder-sulfur",
+            "quantity": 4
+        },
+        "B": {
+            "type": "item",
+            "code": "game:blastingpowder",
+            "quantity": 4
+        },
+        "I": {
+            "type": "item",
+            "code": "game:powder-iron-oxide",
+            "quantity": 2
+        }
+    },
+    "output": {
+        "type": "item",
+        "code": "draconiccoal",
+        "quantity": 4
+    }
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "file": "game:itemtypes/tool/pickaxe",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "game:itemtypes/tool/pickaxe",
+        "op": "move",
+        "frompath": "/shapeByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/tool/pickaxe",
+        "op": "addmerge",
+        "path": "/shapeByType/@pickaxe-(valyriansteel)",
+        "value": {"base":"item/tool/pickaxe-iron"}
+    },
+    {
+        "file": "game:itemtypes/tool/pickaxe",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/shapeByType/*"
+    },
+    {
+        "file": "game:itemtypes/tool/pickaxe",
+        "op": "addmerge",
+        "path": "/tooltierbytype/*-valyriansteel",
+        "value": 5
+    },
+    {
+        "file": "game:itemtypes/tool/pickaxe",
+        "op": "addmerge",
+        "path": "/miningspeedbytype/pickaxe-valyriansteel",
+        "value": { "ceramic": 3.75, "stone": 10, "ore": 10, "metal": 10, "ice": 4.5 }
+    },
+    {
+        "file": "game:itemtypes/tool/pickaxe",
+        "op": "addmerge",
+        "path": "/attackpowerbytype/pickaxe-valyriansteel",
+        "value": 2.75
+    },
+    {
+        "file": "game:itemtypes/tool/pickaxe",
+        "op": "addmerge",
+        "path": "/durabilitybytype/pickaxe-valyriansteel",
+        "value": 3250
+    }
+]

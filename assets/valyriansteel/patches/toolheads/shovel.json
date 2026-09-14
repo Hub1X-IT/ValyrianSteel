@@ -1,0 +1,190 @@
+[
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": ["valyriansteel"]
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/behaviorsByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "addmerge",
+        "path": "/behaviorsByType/@(.*-valyriansteel)",
+        "value": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+            "layout": "Quadrants",
+            "collisionBox": {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 0.125,
+                "z2": 1
+            }
+            }
+        },
+        {
+            "name": "Quenchable",
+            "properties": { "metalVariantgroupCode": "material" }
+        }
+        ]
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/behaviorsByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/shapeByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "addmerge",
+        "path": "/shapeByType/*-valyriansteel",
+        "value": { "base": "item/tool/shovelhead-copper" }
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/shapeByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/attributes/forgableByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "addmerge",
+        "path": "/attributes/forgableByType/@shovelhead-(valyriansteel)",
+        "value": true
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/forgableByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/attributes/groundStorageTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "addmerge",
+        "path": "/attributes/groundStorageTransformByType/@*-(valyriansteel)",
+        "value": {
+        "translation": { "x": -0.08, "y": -0.043, "z": 0.07 },
+        "rotation": { "x": 0, "y": 45, "z": -3 },
+        "scale": 0.9
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/groundStorageTransformByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/attributes/displayable/shelf/sizeByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "addmerge",
+        "path": "/attributes/displayable/shelf/sizeByType/@*-(valyriansteel)",
+        "value": { "width": 6, "height": 2, "length": 8 }
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/displayable/shelf/sizeByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/attributes/displayable/shelf/transformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "addmerge",
+        "path": "/attributes/displayable/shelf/transformByType/@*-(valyriansteel)",
+        "value": {
+        "translation": { "x": -0.7, "y": 0.005, "z": -0.5 },
+        "rotation": { "x": 0, "y": 90, "z": 0 },
+        "origin": { "x": 1.2, "y": 0.5, "z": 0.5 }
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/displayable/shelf/transformByType/*"
+    },
+
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/guiTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "addmerge",
+        "path": "/guiTransformByType/@shovelhead-(valyriansteel)",
+        "value": {
+        "rotate": false,
+        "translation": { "x": 0, "y": 0, "z": 4 },
+        "rotation": { "x": 141, "y": 33, "z": -38 },
+        "origin": { "x": 0.52, "y": 0.29, "z": 0.3 },
+        "scale": 2.24
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/guiTransformByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/tpHandTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "addmerge",
+        "path": "/tpHandTransformByType/@shovelhead-(valyriansteel)",
+        "value": {
+        "translation": { "x": -0.7, "y": -0.6, "z": -0.1 },
+        "rotation": { "x": 90, "y": 20, "z": 0 },
+        "scale": 0.85
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/shovelhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/tpHandTransformByType/*"
+    }
+]

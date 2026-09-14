@@ -1,0 +1,81 @@
+[
+    {
+		"file": "game:recipes/grid/armor/chain",
+		"op": "addmerge",
+		"path": "/0/ingredients/T/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+    {
+		"file": "game:recipes/grid/armor/chain",
+		"op": "addmerge",
+		"path": "/1/ingredients/T/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+    {
+		"file": "game:recipes/grid/armor/chain",
+		"op": "addmerge",
+		"path": "/1/ingredients/C/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+    {
+		"file": "game:recipes/grid/armor/chain",
+		"op": "addmerge",
+		"path": "/2/ingredients/T/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+    {
+		"file": "game:recipes/grid/armor/chain",
+		"op": "addmerge",
+		"path": "/2/ingredients/C/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+
+	{
+		"file": "game:recipes/grid/armorrepair/chain",
+		"op": "addmerge",
+		"path": "/0/ingredients/T/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/chain",
+		"op": "addmerge",
+		"path": "/0/ingredients/C/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/chain",
+		"op": "addmerge",
+		"path": "/1/ingredients/T/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/chain",
+		"op": "addmerge",
+		"path": "/1/ingredients/L/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/chain",
+		"op": "addmerge",
+		"path": "/1/ingredients/C/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/chain",
+		"op": "addmerge",
+		"path": "/2/ingredients/T/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/chain",
+		"op": "addmerge",
+		"path": "/2/ingredients/L/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/chain",
+		"op": "addmerge",
+		"path": "/2/ingredients/C/allowedVariants",
+		"value": [ "valyriansteel" ]
+	}
+]

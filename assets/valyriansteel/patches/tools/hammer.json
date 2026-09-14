@@ -1,0 +1,26 @@
+[
+    {
+        "file": "game:itemtypes/tool/hammer",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "game:itemtypes/tool/hammer",
+        "op": "addmerge",
+        "path": "/tooltierbytype/*-valyriansteel",
+        "value": 5
+    },
+    {
+        "file": "game:itemtypes/tool/hammer",
+        "op": "addmerge",
+        "path": "/durabilitybytype/hammer-valyriansteel",
+        "value": 5250
+    },
+    {
+        "file": "game:itemtypes/tool/hammer",
+        "op": "addmerge",
+        "path": "/attackpowerbytype/hammer-valyriansteel",
+        "value": 2.7
+    }
+]

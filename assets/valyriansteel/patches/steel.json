@@ -1,0 +1,73 @@
+[
+    {
+        "file": "game:itemtypes/resource/crushed/crushed",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [ "steel" ]
+    },
+    {
+        "file": "game:itemtypes/resource/metalbit",
+        "op": "addmerge",
+        "path": "/crushingPropsByType",
+        "value": {
+            "*-steel": {
+                "crushedStack": { "type": "item", "code": "crushed-steel" },
+                "quantity": { "avg": 0.33 },
+                "hardnessTier": 4
+            }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/crushed/powder",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [ "steel" ]
+    },
+    {
+        "file": "game:itemtypes/resource/crushed/crushed",
+        "op": "addmerge",
+        "path": "/grindingPropsByType/*-steel",
+        "value": {
+            "groundStack": { "type": "item", "code": "powder-steel"}
+        }
+    },
+	{
+		"file": "game:itemtypes/resource/crushed/crushed",
+		"op": "move",
+		"frompath": "/textureByType/*",
+		"path": "/temp"
+	},
+	{
+		"file": "game:itemtypes/resource/crushed/crushed",
+		"op": "addmerge",
+		"path": "/textureByType/*-steel",
+		"value": {
+			"base": "game:block/metal/ingot/steel"
+		}
+	},
+	{
+		"file": "game:itemtypes/resource/crushed/crushed",
+		"op": "move",
+		"frompath": "/temp",
+		"path": "/textureByType/*"
+	},{
+		"file": "game:itemtypes/resource/crushed/powder",
+		"op": "move",
+		"frompath": "/textureByType/*",
+		"path": "/temp"
+	},
+	{
+		"file": "game:itemtypes/resource/crushed/powder",
+		"op": "addmerge",
+		"path": "/textureByType/*-steel",
+		"value": {
+			"base": "game:block/metal/ingot/steel"
+		}
+	},
+	{
+		"file": "game:itemtypes/resource/crushed/powder",
+		"op": "move",
+		"frompath": "/temp",
+		"path": "/textureByType/*"
+	}
+]

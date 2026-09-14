@@ -1,0 +1,40 @@
+[
+    {
+        "file": "game:entities/nonliving/projectile/arrow",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "game:entities/nonliving/projectile/spear",
+        "op": "addmerge",
+        "path": "/variantgroups/1/states",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "game:entities/nonliving/projectile/spear",
+        "op": "move",
+        "frompath": "/client/shapeByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:entities/nonliving/projectile/spear",
+        "op": "addmerge",
+        "path": "/client/shapeByType/@spear-generic-(valyriansteel)",
+        "value":{"base": "game:item/tool/spear/metal-steel", "offsetX": -0.8125}
+    },
+    {
+        "file": "game:entities/nonliving/projectile/spear",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/client/shapeByType/*"
+    },
+    {
+        "file": "game:entities/nonliving/projectile/spear",
+        "op": "addmerge",
+        "path": "/client/texturesByType/@spear-generic-(valyriansteel)",
+        "value": {
+        "ingot":{"base": "game:block/metal/ingot/steel"}
+        }
+    }
+]

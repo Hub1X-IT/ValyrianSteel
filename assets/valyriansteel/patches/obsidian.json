@@ -1,0 +1,37 @@
+[
+	{
+		"file": "game:itemtypes/resource/crushed/crushed",
+		"op": "addmerge",
+		"path": "/variantgroups/0/states",
+		"value": [ "obsidian" ]
+	},
+	{
+		"file": "game:itemtypes/resource/stone",
+		"op": "addmerge",
+		"path": "/crushingPropsByType/*-obsidian",
+		"value": {
+			"crushedstack": { "type": "item", "code": "crushed-obsidian", "stacksize": 1},
+			"hardnesstier": 3
+		}
+	},
+	{
+		"file": "game:itemtypes/resource/crushed/crushed",
+		"op": "move",
+		"frompath": "/textureByType/*",
+		"path": "/temp"
+	},
+	{
+		"file": "game:itemtypes/resource/crushed/crushed",
+		"op": "addmerge",
+		"path": "/textureByType/*-obsidian",
+		"value": {
+			"base": "game:block/stone/rock/obsidian1"
+		}
+	},
+	{
+		"file": "game:itemtypes/resource/crushed/crushed",
+		"op": "move",
+		"frompath": "/temp",
+		"path": "/textureByType/*"
+	}
+]

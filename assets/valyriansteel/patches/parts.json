@@ -1,0 +1,84 @@
+[
+    {
+        "file": "game:itemtypes/part/boss",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [
+            "valyriansteel"
+        ]
+    },
+    {
+        "file": "game:itemtypes/part/hoop",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [
+            "valyriansteel"
+        ]
+    },
+    {
+        "file": "game:itemtypes/part/helvehammerhead",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [
+            "valyriansteel"
+        ]
+    },
+    {
+        "file": "game:itemtypes/part/helvehammer",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [
+            "valyriansteel"
+        ]
+    },
+    {
+        "file": "game:itemtypes/part/poundercap",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [
+            "valyriansteel"
+        ]
+    },
+    {
+        "file": "game:itemtypes/part/bracket",
+        "op": "addmerge",
+        "path": "/variantgroups/1/states",
+        "value": [
+            "valyriansteel"
+        ]
+    },
+    {
+        "file": "game:itemtypes/part/hub",
+        "op": "addmerge",
+        "path": "/variantgroups/1/states",
+        "value": [
+            "valyriansteel"
+        ]
+    },
+    {
+        "file": "game:itemtypes/part/rod",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [
+            "valyriansteel"
+        ]
+    },
+    {
+        "file": "game:itemtypes/part/rod",
+        "op": "addmerge",
+        "path": "/materialDensityByType/*-valyriansteel",
+        "value": 7820
+    },
+    {
+        "file": "game:itemtypes/part/rod",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType/*-valyriansteel",
+        "value": {
+            meltingPoint: 2800,
+            meltingDuration: 30,
+            smeltedRatio: 1,
+            smeltedStack: { "type": "item", "code": "ingot-valyriansteel" }
+        }
+    },
+    
+]

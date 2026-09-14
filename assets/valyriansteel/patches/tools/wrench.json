@@ -1,0 +1,71 @@
+[
+    {
+        "file": "game:itemtypes/tool/wrench",
+        "op": "move",
+        "frompath": "/behaviorsByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/tool/wrench",
+        "op": "addmerge",
+        "path": "/behaviorsByType/@(.*-valyriansteel)",
+        "value": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 1,
+            "ctrlKey": true,
+            "selectionBox": {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 0.1,
+                "z2": 1
+            },
+            "collisionBox": {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 0,
+                "y2": 0,
+                "z2": 0
+            }
+            }
+        },
+        { "name": "Buffable" },
+        { "name": "Quenchable" }
+        ]
+    },
+    {
+        "file": "game:itemtypes/tool/wrench",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/behaviorsByType/*"
+    },
+    {
+        "file": "game:itemtypes/tool/wrench",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": ["valyriansteel"]
+    },
+    {
+        "file": "game:itemtypes/tool/wrench",
+        "op": "addmerge",
+        "path": "/tooltierbytype/*-valyriansteel",
+        "value": 5
+    },
+    {
+        "file": "game:itemtypes/tool/wrench",
+        "op": "addmerge",
+        "path": "/durabilitybytype/wrench-valyriansteel",
+        "value": 5250
+    },
+    {
+        "file": "game:itemtypes/tool/wrench",
+        "op": "addmerge",
+        "path": "/attackpowerbytype/wrench-valyriansteel",
+        "value": 2.6
+    }
+]

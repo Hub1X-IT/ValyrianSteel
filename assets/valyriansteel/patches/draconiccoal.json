@@ -1,0 +1,10 @@
+[
+    {
+        "file": "game:blocktypes/coalpile",
+        "op": "addmerge",
+        "path": "/textures/draconiccoal",
+        "value": {
+            "base": "draconiccoal"
+        }
+    }
+]

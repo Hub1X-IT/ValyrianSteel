@@ -1,0 +1,26 @@
+[
+    {
+        "file": "game:itemtypes/toolhead/arrowhead",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "game:itemtypes/toolhead/arrowhead",
+        "op": "move",
+        "frompath": "/shapeByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/arrowhead",
+        "op": "addmerge",
+        "path": "/shapeByType/*-valyriansteel",
+        "value": { "base": "game:item/tool/arrowhead-steel" }
+    },
+    {
+        "file": "game:itemtypes/toolhead/arrowhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/shapeByType/*"
+    }
+]

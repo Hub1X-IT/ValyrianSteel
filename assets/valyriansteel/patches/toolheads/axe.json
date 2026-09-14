@@ -1,0 +1,205 @@
+[
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": ["valyriansteel"]
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/behaviorsByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "addmerge",
+        "path": "/behaviorsByType/@(.*-valyriansteel)",
+        "value": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+            "layout": "Quadrants",
+            "collisionBox": {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 0.125,
+                "z2": 1
+            }
+            }
+        },
+        {
+            "name": "Quenchable",
+            "properties": { "metalVariantgroupCode": "material" }
+        }
+        ]
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/behaviorsByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/shapeByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "addmerge",
+        "path": "/shapeByType/*-valyriansteel",
+        "value": { "base": "item/tool/axe/iron" }
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/shapeByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/attributes/forgableByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "addmerge",
+        "path": "/attributes/forgableByType/@axehead-(valyriansteel)",
+        "value": true
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/forgableByType/@*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/attributes/onTongTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "addmerge",
+        "path": "/attributes/onTongTransformByType/@axehead-(gold|silver|iron|meteoriciron|steel|valyriansteel)",
+        "value": {
+        "translation": { "x": -1.4, "y": -0.9, "z": -0.03 },
+        "rotation": { "x": 97, "y": 18, "z": -81 }
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/onTongTransformByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/attributes/onMetalTongTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "addmerge",
+        "path": "/attributes/onMetalTongTransformByType/@axehead-(gold|silver|iron|meteoriciron|steel|valyriansteel)",
+        "value": {
+        "translation": { "x": -1.27, "y": -0.12, "z": -0.525 },
+        "rotation": { "x": 86, "y": 6, "z": -88 },
+        "origin": { "x": 0.875, "y": -0, "z": 0.5 }
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/onMetalTongTransformByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/attributes/groundStorageTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "addmerge",
+        "path": "/attributes/groundStorageTransformByType/@*-(valyriansteel)",
+        "value": {
+        "translation": { "x": -0.55, "y": 0, "z": 0.1 },
+        "rotation": { "x": 0, "y": -66, "z": 0 },
+        "origin": { "x": 1, "y": 0.5, "z": 0.5 }
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/groundStorageTransformByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/attributes/displayable/shelf/sizeByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "addmerge",
+        "path": "/attributes/displayable/shelf/sizeByType/@*-(valyriansteel)",
+        "value": { "width": 8, "height": 2, "length": 6 }
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/displayable/shelf/sizeByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/attributes/displayable/shelf/transformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "addmerge",
+        "path": "/attributes/displayable/shelf/transformByType/@*-(valyriansteel)",
+        "value": { "translation": { "x": -0.38, "y": 0, "z": 0.1 } }
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/displayable/shelf/transformByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/guiTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "addmerge",
+        "path": "/guiTransformByType/@*-(valyriansteel)",
+        "value": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": -57, "y": -119, "z": -172 },
+        "origin": { "x": 0.97, "y": -0.07, "z": 0.5 },
+        "scale": 2.8
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/axehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/guiTransformByType/*"
+    }
+]

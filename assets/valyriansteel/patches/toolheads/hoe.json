@@ -1,0 +1,141 @@
+[
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": ["valyriansteel"]
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "move",
+        "frompath": "/behaviorsByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "addmerge",
+        "path": "/behaviorsByType/@(.*-valyriansteel)",
+        "value": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+            "layout": "Quadrants",
+            "collisionBox": {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 0.125,
+                "z2": 1
+            }
+            }
+        },
+        {
+            "name": "Quenchable",
+            "properties": { "metalVariantgroupCode": "material" }
+        }
+        ]
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/behaviorsByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "move",
+        "frompath": "/shapeByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "addmerge",
+        "path": "/shapeByType/*-valyriansteel",
+        "value": { "base": "item/tool/hoe-copper" }
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/shapeByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "move",
+        "frompath": "/attributes/forgableByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "addmerge",
+        "path": "/attributes/forgableByType/@hoehead-(valyriansteel)",
+        "value": true
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/forgableByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "move",
+        "frompath": "/attributes/displayable/shelf/sizeByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "addmerge",
+        "path": "/attributes/displayable/shelf/sizeByType/@*-(valyriansteel)",
+        "value": { "width": 2.5, "height": 2, "length": 8 }
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/displayable/shelf/sizeByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "move",
+        "frompath": "/attributes/displayable/shelf/transformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "addmerge",
+        "path": "/attributes/displayable/shelf/transformByType/@*-(valyriansteel)",
+        "value": { "translocation": { "x": -0.4, "y": 0.02, "z": 0.12 } }
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/displayable/shelf/transformByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "move",
+        "frompath": "/guiTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "addmerge",
+        "path": "/guiTransformByType/@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel|valyriansteel)",
+        "value": {
+        "rotate": false,
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": -52, "y": -131, "z": -180 },
+        "origin": { "x": 0.93, "y": 0, "z": 0.5 },
+        "scale": 3.76
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/hoehead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/guiTransformByType/*"
+    }
+]

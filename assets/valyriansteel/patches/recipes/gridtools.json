@@ -1,0 +1,20 @@
+[
+    {
+        "file": "game:recipes/grid/tool/axe",
+        "op": "addmerge",
+        "path": "/0/ingredients/T/allowedVariants",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "game:recipes/grid/tool/blade",
+        "op": "addmerge",
+        "path": "/0/ingredients/T/allowedVariants",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "game:recipes/grid/tool/spear",
+        "op": "addmerge",
+        "path": "/ingredients/T/allowedVariants",
+        "value": [ "valyriansteel" ]
+    }
+]

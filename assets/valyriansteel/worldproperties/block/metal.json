@@ -1,0 +1,18 @@
+{
+    "code": "metal",
+    "variants": [
+        {
+            "code": "valyriansteel",
+            "meltPoint": 2800,
+            "boilPoint": 2600,
+            "density": 7900,
+            "specificHeatCapacity": 0.435,
+            "elemental": false,
+            "tier": 5,
+            "quenchMinTemp": 815,
+			"quenchMaxTemp": 1050,
+			"temperMinTemp": 550,
+			"temperMaxTemp": 700
+        },
+    ]
+}

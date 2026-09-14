@@ -1,0 +1,233 @@
+[
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": ["valyriansteel"]
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/behaviorsByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "addmerge",
+        "path": "/behaviorsByType/@(.*-valyriansteel)",
+        "value": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+            "layout": "Quadrants",
+            "collisionBox": {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 0.125,
+                "z2": 1
+            }
+            }
+        },
+        {
+            "name": "Quenchable",
+            "properties": { "metalVariantgroupCode": "material" }
+        }
+        ]
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/behaviorsByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/shapeByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "addmerge",
+        "path": "/shapeByType/@spearhead-(valyriansteel)",
+        "value": { "base": "item/tool/spear/metal-{material}" }
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/shapeByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/texturesByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "addmerge",
+        "path": "/texturesByType/@spearhead-(valyriansteel)",
+        "value": {
+        "ingot": { "base": "block/metal/ingot/{material}1" },
+        "string": { "base": "block/transparent" },
+        "handle": { "base": "block/transparent" }
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/texturesByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/attributes/forgableByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "addmerge",
+        "path": "/attributes/forgableByType/@spearhead-(valyriansteel)",
+        "value": true
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/forgableByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/attributes/groundStorageTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "addmerge",
+        "path": "/attributes/groundStorageTransformByType/@*-(valyriansteel)",
+        "value": {
+        "translation": { "x": -0.9, "y": 0.05, "z": 0 },
+        "rotation": { "x": 93, "y": -8, "z": -37 },
+        "origin": { "x": 1.4, "y": 0, "z": 0.5 }
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/groundStorageTransformByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/attributes/displayable/shelf/sizeByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "addmerge",
+        "path": "/attributes/displayable/shelf/sizeByType/@*-(valyriansteel)",
+        "value": { "width": 3, "height": 2.5, "length": 8 }
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/displayable/shelf/sizeByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/attributes/displayable/shelf/transformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "addmerge",
+        "path": "/attributes/displayable/shelf/transformByType/@*-(valyriansteel)",
+        "value": {
+        "translation": { "x": -1.05, "y": 0.02, "z": 0.25 },
+        "rotation": { "x": -82, "y": 0, "z": -90 },
+        "origin": { "x": 1.5, "y": 0, "z": 0.5 }
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/displayable/shelf/transformByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/guiTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "addmerge",
+        "path": "/guiTransformByType/@*-(valyriansteel)",
+        "value": {
+        "rotation": { "x": 180, "y": -32, "z": 137 },
+        "origin": { "x": 1.45, "y": 0.04, "z": 0.5 },
+        "scale": 2.33
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/guiTransformByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/tpHandTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "addmerge",
+        "path": "/tpHandTransformByType/@*-(valyriansteel)",
+        "value": {
+        "translation": { "x": 0, "y": 0.04, "z": -0.4 },
+        "rotation": { "x": -11, "y": -17, "z": -2 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 0.82
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/tpHandTransformByType/*"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/groundTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "addmerge",
+        "path": "/groundTransformByType/@*-(valyriansteel)",
+        "value": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 90, "y": -5, "z": 0 },
+        "origin": { "x": 1.3, "y": 0.05, "z": 0.52 },
+        "scale": 4.63
+        }
+    },
+    {
+        "file": "game:itemtypes/toolhead/spearhead",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/groundTransformByType/*"
+    }
+]

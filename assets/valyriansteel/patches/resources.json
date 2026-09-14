@@ -1,0 +1,158 @@
+[
+    {
+        "file": "game:itemtypes/resource/metalbit",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType/metalbit-valyriansteel",
+        "value": {
+            "meltingPoint": 2800,
+            "meltingDuration": 30,
+            "smeltedRatio": 20,
+            "smeltedStack": { "type": "item", "code": "game:ingot-valyriansteel" }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/ingot",
+        "op": "addmerge",
+        "path": "/materialDensityByType/*-valyriansteel",
+        "value": 7820
+    },
+    {
+        "file": "game:itemtypes/resource/ingot",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType/ingot-valyriansteel",
+        "value": {
+            "meltingPoint": 2800,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": { "type": "item", "code": "game:ingot-valyriansteel" }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/workitem",
+        "op": "addmerge",
+        "path": "/attributesByType/workitem-valyriansteel",
+        "value": {
+            "requiresAnvilTier": 4
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/workitem",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType/workitem-valyriansteel",
+        "value": {
+            "meltingPoint": 2800,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": { "type": "item", "code": "game:ingot-valyriansteel" }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/metalplate",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType/metalplate-valyriansteel",
+        "value": {
+            "meltingPoint": 2800,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": { "type": "item", "code": "ingot-valyriansteel", "stacksize": 2 }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/metalplate",
+        "op": "addmerge",
+        "path": "/materialDensityByType/*-valyriansteel",
+        "value": 7820
+    },
+    {
+        "file": "game:itemtypes/resource/metalscale",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType/metalscale-valyriansteel",
+        "value": {
+            "meltingPoint": 2800,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": { "type": "item", "code": "ingot-valyriansteel", "stacksize": 1 }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/metalscale",
+        "op": "addmerge",
+        "path": "/materialDensityByType/*-valyriansteel",
+        "value": 7820
+    },
+    {
+        "file": "game:itemtypes/resource/metalscale",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "game:itemtypes/resource/metalchain",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType/metalchain-valyriansteel",
+        "value": {
+            "meltingPoint": 2800,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": { "type": "item", "code": "ingot-valyriansteel", "stacksize": 2 }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/metalchain",
+        "op": "addmerge",
+        "path": "/materialDensityByType/*-valyriansteel",
+        "value": 7820
+    },
+    {
+        "file": "game:itemtypes/resource/metalchain",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "game:itemtypes/resource/metallamellae",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType/metallamellae-valyriansteel",
+        "value": {
+            "meltingPoint": 2800,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": { "type": "item", "code": "ingot-valyriansteel", "stacksize": 2 }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/metallamellae",
+        "op": "addmerge",
+        "path": "/materialDensityByType/*-valyriansteel",
+        "value": 7820
+    },
+    {
+        "file": "game:itemtypes/resource/metallamellae",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "game:itemtypes/resource/metalnailsandstrips",
+        "op": "addmerge",
+        "path": "/allowedVariants",
+        "value": [ "*-valyriansteel" ]
+    },
+    {
+        "file": "game:itemtypes/resource/metalnailsandstrips",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType/metalnailsandstrips-valyriansteel",
+        "value": {
+            "meltingPoint": 2800,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": { "type": "item", "code": "ingot-valyriansteel", "stacksize": 2 }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/metalnailsandstrips",
+        "op": "addmerge",
+        "path": "/materialDensityByType/*-valyriansteel",
+        "value": 7820
+    }
+]

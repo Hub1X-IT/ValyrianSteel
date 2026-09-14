@@ -1,0 +1,44 @@
+[
+    {
+        "file": "game:itemtypes/tool/blade",
+        "op": "addmerge",
+        "path": "/variantgroups/1/states",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "game:itemtypes/tool/blade",
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+        "blade-falx-valyriansteel": {
+                "falxstring": { "base": "block/transparent" },
+                "thongs": { "base": "block/transparent" },
+                "woodguard": { "base": "block/transparent" },
+                "handle":  { "base": "block/wood/debarked/veryaged" },
+                "falxblade":  { "base": "block/metal/ingot/valyriansteel" },
+                "cloth":  { "base": "block/transparent" },
+                "handguard":  { "base": "block/metal/sheet/meteoriciron1" },
+                "spinerivet":  { "base": "block/metal/sheet/gold1" },
+                "pips":  { "base": "block/transparent" }
+            }
+        }
+    },
+    {
+        "file": "game:itemtypes/tool/blade",
+        "op": "addmerge",
+        "path": "/tooltierbytype",
+        "value": { "*-valyriansteel": 5 }
+    },
+    {
+        "file": "game:itemtypes/tool/blade",
+        "op": "addmerge",
+        "path": "/attackpowerbytype",
+        "value": { "blade-falx-valyriansteel": 5.5 }
+    },
+    {
+        "file": "game:itemtypes/tool/blade",
+        "op": "addmerge",
+        "path": "/durabilitybytype",
+        "value": { "blade-falx-valyriansteel": 2750 }
+    }
+]

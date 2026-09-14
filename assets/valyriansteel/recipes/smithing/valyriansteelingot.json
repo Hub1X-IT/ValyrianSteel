@@ -1,0 +1,15 @@
+{
+	"name": "Valyrian Steel ingot",
+	"ingredient": { "type": "item", "code": "valyriansteel:valyriansteelbloom" },
+	"pattern": [[
+		"#######",
+		"#######",
+		"#######"
+	],
+	[
+		"#######",
+		"#######",
+		"#######"
+	]],
+	"output": { "type": "item", "code": "game:ingot-valyriansteel" }
+}

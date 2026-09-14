@@ -1,0 +1,9 @@
+{
+	"code": "bloodobsidian",
+	"sealHours": 120,
+	"ingredients": [
+		{ "type": "item", "code": "butchering:bloodportion",  "litres": 1 },
+		{ "type": "item", "code": "game:crushed-obsidian", "quantity": 1 }
+	],
+	"output": { "type": "item", "code": "bloodobsidian", "quantity": 1 }
+}
