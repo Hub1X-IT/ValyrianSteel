@@ -16,7 +16,7 @@
         "op": "addmerge",
         "path": "/texturesByType/@spear-generic-(valyriansteel)",
         "value": {
-        "ingot": { "base": "block/metal/ingot/{material}" }
+            "ingot": { "base": "block/metal/ingot/{material}" }
         }
     },
     {
@@ -34,11 +34,11 @@
     {
         "file": "game:itemtypes/tool/spear",
         "op": "addmerge",
-        "path": "/attributes/groundStorageTransformByType/spear-generic-(valyriansteel)",
+        "path": "/attributes/groundStorageTransformByType/@spear-generic-(valyriansteel)",
         "value": {
-        "translation": { "x": -0.39, "y": 0.78, "z": 0.2 },
-        "rotation": { "x": 16, "y": 1, "z": 90 },
-        "scale": 0.85
+            "translation": { "x": -0.39, "y": 0.78, "z": 0.2 },
+            "rotation": { "x": 16, "y": 1, "z": 90 },
+            "scale": 0.85
         }
     },
     {
@@ -82,9 +82,9 @@
         "op": "addmerge",
         "path": "/attributes/toolrackTransformByType/@spear-generic-(valyriansteel)",
         "value": {
-        "rotation": { "x": 90, "y": 1, "z": -1 },
-        "translation": { "x": -0.19, "y": 0.04, "z": 0.7 },
-        "scale": 1.36
+            "rotation": { "x": 90, "y": 1, "z": -1 },
+            "translation": { "x": -0.19, "y": 0.04, "z": 0.7 },
+            "scale": 1.36
         }
     },
     {
@@ -110,9 +110,9 @@
         "op": "addmerge",
         "path": "/guiTransformByType/@spear-generic-(valyriansteel)",
         "value": {
-        "rotation": { "x": 33, "y": 0, "z": -127 },
-        "origin": { "x": 1.39, "y": 0.05, "z": 0.5 },
-        "scale": 2.26
+            "rotation": { "x": 33, "y": 0, "z": -127 },
+            "origin": { "x": 1.39, "y": 0.05, "z": 0.5 },
+            "scale": 2.26
         }
     },
     {
@@ -132,10 +132,10 @@
         "op": "addmerge",
         "path": "/tpHandTransformByType/@spear-generic-(valyriansteel)",
         "value": {
-        "translation": { "x": -1.04, "y": 0.02, "z": -0.57 },
-        "rotation": { "x": -90, "y": 0, "z": 0 },
-        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
-        "scale": 0.8
+            "translation": { "x": -1.04, "y": 0.02, "z": -0.57 },
+            "rotation": { "x": -90, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+            "scale": 0.8
         }
     },
     {
