@@ -38,5 +38,5 @@
         "op": "move",
         "frompath": "/temp",
         "path": "/behaviorsByType/*"
-    }
+    },
 ]

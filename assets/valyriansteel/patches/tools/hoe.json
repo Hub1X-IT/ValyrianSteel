@@ -25,9 +25,21 @@
     },
     {
         "file": "game:itemtypes/tool/hoe",
+        "op": "move",
+        "frompath": "/texturesByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/tool/hoe",
         "op": "addmerge",
         "path": "/texturesByType/@hoe-valyriansteel",
         "value": { "material": { "base": "block/metal/ingot/{material}" } }
+    },
+    {
+        "file": "game:itemtypes/tool/hoe",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/texturesByType/*",
     },
     {
         "file": "game:itemtypes/tool/hoe",

@@ -15,7 +15,7 @@
         "file": "game:itemtypes/toolhead/arrowhead",
         "op": "addmerge",
         "path": "/shapeByType/*-valyriansteel",
-        "value": { "base": "game:item/tool/arrowhead-steel" }
+        "value": { "base": "game:item/tool/arrowhead-copper" }
     },
     {
         "file": "game:itemtypes/toolhead/arrowhead",
