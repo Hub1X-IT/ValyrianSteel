@@ -35,6 +35,9 @@
     },
 
     "shape": { "base": "game:shapes/item/ironbloom"},
+	"textures": { 
+		"ironbloom": { "base": "item/valyriansteelbloom" }
+	},
 
     "maxstacksize": 64,
 	"materialdensity": 7000,

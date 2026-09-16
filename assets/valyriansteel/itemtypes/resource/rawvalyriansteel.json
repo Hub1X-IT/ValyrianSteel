@@ -30,6 +30,9 @@
     },
 
     "shape": { "base": "game:shapes/item/nugget"},
+	"textures": { 
+		"ore": { "base": "item/rawvalyriansteel" }
+	},
 
     "maxstacksize": 128,
 

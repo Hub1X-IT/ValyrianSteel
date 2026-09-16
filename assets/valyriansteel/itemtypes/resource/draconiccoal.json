@@ -30,6 +30,9 @@
     },
 
     "shape": { "base": "game:item/ore/ungraded/charcoal" },
+    "textures": { 
+		"ore": { "base": "item/draconiccoal" }
+	},
 
     "creativeinventory": { "general": ["*"], "items": ["*"], "valyriansteel": ["*"] },
 
