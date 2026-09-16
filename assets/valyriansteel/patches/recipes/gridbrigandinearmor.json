@@ -1,0 +1,39 @@
+[
+    {
+		"file": "game:recipes/grid/armor/brigandine",
+		"op": "addmerge",
+		"path": "/0/ingredients/P/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+    {
+		"file": "game:recipes/grid/armor/brigandine",
+		"op": "addmerge",
+		"path": "/1/ingredients/P/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+    {
+		"file": "game:recipes/grid/armor/brigandine",
+		"op": "addmerge",
+		"path": "/2/ingredients/P/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+
+	{
+		"file": "game:recipes/grid/armorrepair/brigandine",
+		"op": "addmerge",
+		"path": "/0/ingredients/P/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/brigandine",
+		"op": "addmerge",
+		"path": "/1/ingredients/P/allowedVariants",
+		"value": [ "valyriansteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armorrepair/brigandine",
+		"op": "addmerge",
+		"path": "/2/ingredients/P/allowedVariants",
+		"value": [ "valyriansteel" ]
+	}
+]
