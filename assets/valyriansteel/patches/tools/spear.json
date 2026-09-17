@@ -23,7 +23,7 @@
         "file": "game:itemtypes/tool/spear",
         "op": "addmerge",
         "path": "/attackpowerbytype/spear-generic-valyriansteel",
-        "value": 4.6
+        "value": 5.2
     },
     {
         "file": "game:itemtypes/tool/spear",
@@ -57,7 +57,7 @@
         "file": "game:itemtypes/tool/spear",
         "op": "addmerge",
         "path": "/attributes/damageByType/*-valyriansteel",
-        "value": 7.1
+        "value": 8.5
     },
     {
         "file": "game:itemtypes/tool/spear",
@@ -69,7 +69,7 @@
         "file": "game:itemtypes/tool/spear",
         "op": "addmerge",
         "path": "/attributes/damageTierByType/*-valyriansteel",
-        "value": 3
+        "value": 5
     },
     {
         "file": "game:itemtypes/tool/spear",
@@ -97,7 +97,7 @@
         "file": "game:itemtypes/tool/spear",
         "op": "addmerge",
         "path": "/durabilitybytype/spear-generic-valyriansteel",
-        "value": 800
+        "value": 1400
     },
     {
         "file": "game:itemtypes/tool/spear",

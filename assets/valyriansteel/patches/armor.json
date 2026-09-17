@@ -21,12 +21,23 @@
     {
         "file": "game:itemtypes/wearable/seraph/armor",
         "op": "addmerge",
+        "path": "/attributes/protectionModifiersByType/armor-*-brigandine-valyriansteel",
+        "value": {
+            "relativeProtection": 0.840,
+            "flatDamageReduction": 1.35,
+            "highDamageTierResistant": true,
+            "protectionTier": 5
+        }
+    },
+    {
+        "file": "game:itemtypes/wearable/seraph/armor",
+        "op": "addmerge",
         "path": "/attributes/protectionModifiersByType/armor-*-chain-valyriansteel",
         "value": {
             "relativeProtection": 0.865,
-            "flatDamageReduction": 1.45,
+            "flatDamageReduction": 1.50,
             "highDamageTierResistant": true,
-            "protectionTier": 4
+            "protectionTier": 5
         }
     },
     {
@@ -35,9 +46,9 @@
         "path": "/attributes/protectionModifiersByType/armor-*-scale-valyriansteel",
         "value": {
             "relativeProtection": 0.905,
-            "flatDamageReduction": 1.65,
+            "flatDamageReduction": 1.70,
             "highDamageTierResistant": true,
-            "protectionTier": 4
+            "protectionTier": 5
         }
     },
     {
@@ -46,27 +57,33 @@
         "path": "/attributes/protectionModifiersByType/armor-*-plate-valyriansteel",
         "value": {
             "relativeProtection": 0.972,
-            "flatDamageReduction": 1.82,
+            "flatDamageReduction": 1.87,
             "highDamageTierResistant": true,
-            "protectionTier": 4
+            "protectionTier": 5
         }
     },
     {
         "file": "game:itemtypes/wearable/seraph/armor",
         "op": "addmerge",
+        "path": "/durabilityByType/armor-*-brigandine-valyriansteel",
+        "value": 4750
+    },
+    {
+        "file": "game:itemtypes/wearable/seraph/armor",
+        "op": "addmerge",
         "path": "/durabilityByType/armor-*-chain-valyriansteel",
-        "value": 2250
+        "value": 3500
     },
     {
         "file": "game:itemtypes/wearable/seraph/armor",
         "op": "addmerge",
         "path": "/durabilityByType/armor-*-scale-valyriansteel",
-        "value": 4250
+        "value": 5500
     },
     {
         "file": "game:itemtypes/wearable/seraph/armor",
         "op": "addmerge",
         "path": "/durabilityByType/armor-*-plate-valyriansteel",
-        "value": 7000
+        "value": 9500
     }
 ]

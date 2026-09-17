@@ -33,18 +33,18 @@
         "file": "game:itemtypes/tool/pickaxe",
         "op": "addmerge",
         "path": "/miningspeedbytype/pickaxe-valyriansteel",
-        "value": { "ceramic": 3.75, "stone": 10, "ore": 10, "metal": 10, "ice": 4.5 }
+        "value": { "ceramic": 4, "stone": 11, "ore": 11, "metal": 11, "ice": 5 }
     },
     {
         "file": "game:itemtypes/tool/pickaxe",
         "op": "addmerge",
         "path": "/attackpowerbytype/pickaxe-valyriansteel",
-        "value": 2.75
+        "value": 3
     },
     {
         "file": "game:itemtypes/tool/pickaxe",
         "op": "addmerge",
         "path": "/durabilitybytype/pickaxe-valyriansteel",
-        "value": 3250
+        "value": 5000
     }
 ]

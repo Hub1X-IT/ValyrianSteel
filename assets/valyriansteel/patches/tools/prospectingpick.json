@@ -15,18 +15,18 @@
         "file": "game:itemtypes/tool/prospectingpick",
         "op": "addmerge",
         "path": "/miningspeedbytype/prospectingpick-valyriansteel",
-        "value": { "stone": 6, "ore": 6, "metal": 6 }
+        "value": { "stone": 6.5, "ore": 6.5, "metal": 6.5 }
     },
     {
         "file": "game:itemtypes/tool/prospectingpick",
         "op": "addmerge",
         "path": "/attackpowerbytype/prospectingpick-valyriansteel",
-        "value": 2.75
+        "value": 3
     },
     {
         "file": "game:itemtypes/tool/prospectingpick",
         "op": "addmerge",
         "path": "/durabilitybytype/prospectingpick-valyriansteel",
-        "value": 2250
+        "value": 3250
     }
 ]

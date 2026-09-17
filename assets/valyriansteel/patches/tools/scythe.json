@@ -9,6 +9,6 @@
         "file": "game:itemtypes/tool/scythe",
         "op": "addmerge",
         "path": "/durabilitybytype/scythe-valyriansteel",
-        "value": 4500
+        "value": 6800
     }
 ]

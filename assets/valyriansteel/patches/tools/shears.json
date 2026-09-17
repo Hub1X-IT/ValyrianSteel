@@ -9,13 +9,13 @@
         "file": "game:itemtypes/tool/shears",
         "op": "addmerge",
         "path": "/attackpowerbytype/shears-valyriansteel",
-        "value": 3.75
+        "value": 4
     },
     {
         "file": "game:itemtypes/tool/shears",
         "op": "addmerge",
         "path": "/durabilitybytype/shears-valyriansteel",
-        "value": 11250
+        "value": 19000
     },
     {
         "file": "game:itemtypes/tool/shears",

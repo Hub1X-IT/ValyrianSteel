@@ -15,19 +15,19 @@
         "file": "game:itemtypes/tool/shovel",
         "op": "addmerge",
         "path": "/miningspeedbytype/shovel-valyriansteel",
-        "value": { "soil": 8, "sand": 8, "gravel": 4.75, "snow": 4.75 }
+        "value": { "soil": 9, "sand": 9, "gravel": 5.8, "snow": 5.8 }
     },
     {
         "file": "game:itemtypes/tool/shovel",
         "op": "addmerge",
         "path": "/attackpowerbytype/shovel-valyriansteel",
-        "value": 2.75
+        "value": 3
     },
     {
         "file": "game:itemtypes/tool/shovel",
         "op": "addmerge",
         "path": "/durabilitybytype/shovel-valyriansteel",
-        "value": 3500
+        "value": 6000
     },
     {
         "file": "game:itemtypes/tool/shovel",

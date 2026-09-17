@@ -45,19 +45,19 @@
         "file": "game:itemtypes/tool/hoe",
         "op": "addmerge",
         "path": "/miningspeedbytype/hoe-valyriansteel",
-        "value": { "soil": 5.5 }
+        "value": { "soil": 6 }
     },
     {
         "file": "game:itemtypes/tool/hoe",
         "op": "addmerge",
         "path": "/durabilitybytype/hoe-valyriansteel",
-        "value": 1500
+        "value": 2500
     },
     {
         "file": "game:itemtypes/tool/hoe",
         "op": "addmerge",
         "path": "/attackpowerbytype/hoe-valyriansteel",
-        "value": 2.75
+        "value": 3
     },
     {
         "file": "game:itemtypes/tool/hoe",

@@ -19,18 +19,18 @@
         "file": "game:itemtypes/tool/knife",
         "op": "addmerge",
         "path": "/durabilitybytype/knife-generic-valyriansteel",
-        "value": 3000
+        "value": 4500
     },
     {
         "file": "game:itemtypes/tool/knife",
         "op": "addmerge",
         "path": "/miningspeedbytype/knife-generic-valyriansteel",
-        "value": { "plant": 2.5 }
+        "value": { "plant": 2.8 }
     },
     {
         "file": "game:itemtypes/tool/knife",
         "op": "addmerge",
         "path": "/attackpowerbytype/knife-generic-valyriansteel",
-        "value": 4.5
+        "value": 5
     }
 ]

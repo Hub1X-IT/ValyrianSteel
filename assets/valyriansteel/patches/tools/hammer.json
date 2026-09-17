@@ -15,12 +15,12 @@
         "file": "game:itemtypes/tool/hammer",
         "op": "addmerge",
         "path": "/durabilitybytype/hammer-valyriansteel",
-        "value": 5250
+        "value": 9000
     },
     {
         "file": "game:itemtypes/tool/hammer",
         "op": "addmerge",
         "path": "/attackpowerbytype/hammer-valyriansteel",
-        "value": 2.7
+        "value": 3.1
     }
 ]

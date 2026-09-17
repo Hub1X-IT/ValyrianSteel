@@ -54,6 +54,6 @@
         "file": "game:itemtypes/tool/tongsmetal",
         "op": "addmerge",
         "path": "/durabilityByType/*-valyriansteel",
-        "value": 7000
+        "value": 10000
     }
 ]

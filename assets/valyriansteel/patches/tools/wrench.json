@@ -60,12 +60,12 @@
         "file": "game:itemtypes/tool/wrench",
         "op": "addmerge",
         "path": "/durabilitybytype/wrench-valyriansteel",
-        "value": 5250
+        "value": 9000
     },
     {
         "file": "game:itemtypes/tool/wrench",
         "op": "addmerge",
         "path": "/attackpowerbytype/wrench-valyriansteel",
-        "value": 2.6
+        "value": 3
     }
 ]

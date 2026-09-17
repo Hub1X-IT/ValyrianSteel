@@ -9,12 +9,12 @@
         "file": "game:itemtypes/tool/arrow",
         "op": "addmerge",
         "path": "/attributes/damageByType/*-valyriansteel",
-        "value": 2.75
+        "value": 3.25
     },
     {
         "file": "game:itemtypes/tool/arrow",
         "op": "addmerge",
         "path": "/attributes/breakChanceOnImpactByType/*-valyriansteel",
-        "value": 0.07
+        "value": 0.01
     }
 ]
