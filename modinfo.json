@@ -7,7 +7,7 @@
   "version": "1.0.0",
   "RequiredOnClient": true,
   "RequiredOnServer": true,
-  "dependency": {
+  "dependencies": {
     "game": "1.22.3",
     "butchering": "1.13.5",
     "cannibalism": "1.3.0"
