@@ -13,6 +13,12 @@
     {
         "file": "game:itemtypes/resource/ingot",
         "op": "addmerge",
+        "path": "/attributes/requiresAnvilTierByType/ingot-valyriansteel",
+        "value": 4
+    },
+    {
+        "file": "game:itemtypes/resource/ingot",
+        "op": "addmerge",
         "path": "/materialDensityByType/*-valyriansteel",
         "value": 7820
     },
