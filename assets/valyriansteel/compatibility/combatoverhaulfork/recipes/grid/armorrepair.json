@@ -1,0 +1,280 @@
+[
+    {
+        "ingredientPattern": "B,P",
+        "recipeGroup": 2,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:armor-head-brigandine-copper"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-copper"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "copyAttributesFrom": "B",
+        "averageDurability": false,
+        "name": "brigandine helmet repair",
+        "output": {
+            "type": "item",
+            "code": "game:armor-head-brigandine-copper",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B,P",
+        "recipeGroup": 2,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:armor-body-brigandine-copper"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-copper"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "copyAttributesFrom": "B",
+        "averageDurability": false,
+        "name": "brigandine body armor repair",
+        "output": {
+            "type": "item",
+            "code": "game:armor-body-brigandine-copper",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B,P",
+        "recipeGroup": 2,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:armor-legs-brigandine-copper"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-copper"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "copyAttributesFrom": "B",
+        "averageDurability": false,
+        "name": "brigandine leg armor repair",
+        "output": {
+            "type": "item",
+            "code": "game:armor-legs-brigandine-copper",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+
+    {
+        "ingredientPattern": "T,C",
+        "recipeGroup": 2,
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:armor-head-chain-copper"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:metalchain-copper"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "copyAttributesFrom": "T",
+        "averageDurability": false,
+        "name": "chain helmet repair",
+        "output": {
+            "type": "item",
+            "code": "game:armor-head-chain-copper",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "T,C",
+        "recipeGroup": 2,
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:armor-body-chain-copper"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:metalchain-copper"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "copyAttributesFrom": "T",
+        "averageDurability": false,
+        "name": "chain body armor repair",
+        "output": {
+            "type": "item",
+            "code": "game:armor-body-chain-copper",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "T,C",
+        "recipeGroup": 2,
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:armor-legs-chain-copper"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:metalchain-copper"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "copyAttributesFrom": "T",
+        "averageDurability": false,
+        "name": "chain leg armor repair",
+        "output": {
+            "type": "item",
+            "code": "game:armor-legs-chain-copper",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+
+    {
+        "ingredientPattern": "B,S",
+        "recipeGroup": 2,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:armor-head-scale-copper"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:metalscale-copper"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "copyAttributesFrom": "B",
+        "averageDurability": false,
+        "name": "scale helmet repair",
+        "output": {
+            "type": "item",
+            "code": "game:armor-head-scale-copper",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B,S",
+        "recipeGroup": 2,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:armor-body-scale-copper"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:metalscale-copper"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "copyAttributesFrom": "B",
+        "averageDurability": false,
+        "name": "scale body armor repair",
+        "output": {
+            "type": "item",
+            "code": "game:armor-body-scale-copper",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B,S",
+        "recipeGroup": 2,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:armor-legs-scale-copper"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:metalscale-copper"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "copyAttributesFrom": "B",
+        "averageDurability": false,
+        "name": "scale leg armor repair",
+        "output": {
+            "type": "item",
+            "code": "game:armor-legs-scale-copper",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+
+    {
+        "ingredientPattern": "AP",
+        "recipeGroup": 2,
+        "ingredients": {
+            "A": {
+                "type": "item",
+                "code": "game:armor-{type}-plate-{material}"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-{material}"
+            }
+        },
+        "allowedVariants": {
+            "material": [
+                "valyriansteel"
+            ]
+        },
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "copyAttributesFrom": "A",
+        "averageDurability": false,
+        "name": "plate armor repair",
+        "output": {
+            "type": "item",
+            "code": "game:armor-{type}-plate-{material}",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    }
+]

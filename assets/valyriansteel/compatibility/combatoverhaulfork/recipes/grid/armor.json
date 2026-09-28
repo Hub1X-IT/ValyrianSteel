@@ -1,0 +1,353 @@
+[
+    {
+        "ingredientPattern": "LPL,L_L",
+        "recipeGroup": 1,
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain",
+                "quantity": 2,
+                "recipeAttributes": {
+                    "repairMat": {
+                        "type": "item",
+                        "code": "leather-normal-plain",
+                        "stacksize": 1
+                    }
+                }
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-valyriansteel",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "name": "brigandine helmet",
+        "output": {
+            "type": "item",
+            "code": "game:armor-head-brigandine-valyriansteel",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "P_P,PJP",
+        "recipeGroup": 1,
+        "ingredients": {
+            "J": {
+                "type": "item",
+                "code": "game:armor-body-jerkin-leather",
+                "quantity": 1,
+                "recipeAttributes": {
+                    "repairMat": {
+                        "type": "item",
+                        "code": "leather-normal-plain",
+                        "stacksize": 9
+                    }
+                }
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-valyriansteel",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "name": "brigandine body armor",
+        "output": {
+            "type": "item",
+            "code": "game:armor-body-brigandine-valyriansteel",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "PJP",
+        "recipeGroup": 1,
+        "ingredients": {
+            "J": {
+                "type": "item",
+                "code": "game:armor-legs-jerkin-leather",
+                "recipeAttributes": {
+                    "repairMat": {
+                        "type": "item",
+                        "code": "leather-normal-plain",
+                        "stacksize": 6
+                    }
+                }
+            },
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-valyriansteel",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "name": "brigandine leg armor",
+        "output": {
+            "type": "item",
+            "code": "game:armor-legs-brigandine-valyriansteel",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+
+    {
+        "ingredientPattern": "_M_,T_T",
+        "recipeGroup": 1,
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:metalchain-valyriansteel",
+                "quantity": 1
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalchain-valyriansteel",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "name": "chain helmet",
+        "output": {
+            "type": "item",
+            "code": "game:armor-head-chain-valyriansteel",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "T_T,MMM,TMT",
+        "recipeGroup": 1,
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:metalchain-valyriansteel",
+                "quantity": 1
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalchain-valyriansteel",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "name": "chain body armor",
+        "output": {
+            "type": "item",
+            "code": "game:armor-body-chain-valyriansteel",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "TMT,T_T,T_T",
+        "recipeGroup": 1,
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "game:metalchain-valyriansteel",
+                "quantity": 1
+            },
+            "M": {
+                "type": "item",
+                "code": "game:metalchain-valyriansteel",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "name": "chain leg armor",
+        "output": {
+            "type": "item",
+            "code": "game:armor-legs-chain-valyriansteel",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    
+    {
+        "ingredientPattern": "STS,L_L",
+        "recipeGroup": 1,
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:metalscale-valyriansteel",
+                "quantity": 2
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine",
+                "quantity": 1
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "name": "scale helmet",
+        "output": {
+            "type": "item",
+            "code": "game:armor-head-scale-valyriansteel",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "SLS,SSS,TST",
+        "recipeGroup": 1,
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:metalscale-valyriansteel"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine",
+                "quantity": 1
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain",
+                "quantity": 3
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "name": "scale body armor",
+        "output": {
+            "type": "item",
+            "code": "game:armor-body-scale-valyriansteel",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "SLS,STS",
+        "recipeGroup": 1,
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:metalscale-valyriansteel"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:flaxtwine",
+                "quantity": 1
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain",
+                "quantity": 2
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "name": "scale leg armor",
+        "output": {
+            "type": "item",
+            "code": "game:armor-legs-scale-valyriansteel",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+
+    {
+        "enabled": true,
+        "ingredientPattern": "LTL,P_P",
+        "recipeGroup": 1,
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-valyriansteel"
+            },
+            "T": {
+                "type": "item",
+                "code": "game:metalplate-valyriansteel",
+                "quantity": 2
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain"
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "name": "plate helmet",
+        "output": {
+            "type": "item",
+            "code": "game:armor-head-plate-valyriansteel",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "enabled": true,
+        "ingredientPattern": "PLP,PPP,PPP",
+        "recipeGroup": 1,
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-valyriansteel"
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain",
+                "quantity": 5
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "name": "plate body armor",
+        "output": {
+            "type": "item",
+            "code": "game:armor-body-plate-valyriansteel",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    },
+    {
+        "enabled": true,
+        "ingredientPattern": "PPP,PLP",
+        "recipeGroup": 1,
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:metalplate-valyriansteel"
+            },
+            "L": {
+                "type": "item",
+                "code": "game:leather-normal-plain",
+                "quantity": 3
+            }
+        },
+        "width": 3,
+        "height": 2,
+        "name": "plate leg armor",
+        "output": {
+            "type": "item",
+            "code": "game:armor-legs-plate-valyriansteel",
+            "recipeAttributes": {
+                "applyquenchablebuffs": true
+            }
+        }
+    }
+]

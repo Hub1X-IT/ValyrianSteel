@@ -1,0 +1,28 @@
+[
+    {
+        "file": "game:itemtypes/combatoverhaul/sword.json",
+        "op": "addeach",
+        "path": "/variantgroups/1/states/-",
+        "value": [ "valyriansteel" ],
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/sword.json",
+        "op": "addmerge",
+        "path": "/attributes/OneHandedStanceByType/*-falx-*/Attack/DamageTypes/0/DamageByType",
+        "value": {
+            "*-valyriansteel": {
+                "DamageType": "SlashingAttack",
+                "Tier": 8,
+                "Damage": 6
+            }
+        }
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/sword.json",
+        "op": "addmerge",
+        "path": "/durabilitybytype",
+        "value": {
+            "blade-falx-valyriansteel": 2800
+        }
+    }
+]

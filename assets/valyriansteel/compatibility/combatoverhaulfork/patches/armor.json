@@ -1,0 +1,336 @@
+[
+    {
+        "file": "game:itemtypes/wearable/seraph/armor",
+        "op": "addmerge",
+        "path": "/behaviors",
+        "value": [
+            {
+                "name": "CombatOverhaul:Armor",
+                "propertiesByType": {
+            "armor-head-brigandine-valyriansteel": {
+                "Layers": [
+                    "Outer",
+                    "Middle",
+                    "Skin"
+                ],
+                "Zones": [
+                    "Head",
+                    "Neck",
+                    "Face"
+                ],
+                "Resists": {
+                    "PiercingAttack": 0,
+                    "SlashingAttack": 1,
+                    "BluntAttack": 1
+                },
+                "FlatReduction": {},
+                "PlayerStats": {
+                    "walkspeed": -0.05,
+                    "manipulationSpeed": -0.05,
+                    "steadyAim": -0.05,
+                    "healingeffectivness": -0.09,
+                    "hungerrate": 0.09
+                }
+            },
+            "armor-body-brigandine-valyriansteel": {
+                "Layers": [
+                    "Outer",
+                    "Middle",
+                    "Skin"
+                ],
+                "Zones": [
+                    "Torso",
+                    "Arms",
+                    "Hands"
+                ],
+                "Resists": {
+                    "PiercingAttack": 0,
+                    "SlashingAttack": 1,
+                    "BluntAttack": 1
+                },
+                "FlatReduction": {},
+                "PlayerStats": {
+                    "walkspeed": -0.05,
+                    "manipulationSpeed": -0.05,
+                    "steadyAim": -0.05,
+                    "healingeffectivness": -0.09,
+                    "hungerrate": 0.09
+                }
+            },
+            "armor-legs-brigandine-valyriansteel": {
+                "Layers": [
+                    "Outer",
+                    "Middle",
+                    "Skin"
+                ],
+                "Zones": [
+                    "Legs",
+                    "Feet"
+                ],
+                "Resists": {
+                    "PiercingAttack": 0,
+                    "SlashingAttack": 1,
+                    "BluntAttack": 1
+                },
+                "FlatReduction": {},
+                "PlayerStats": {
+                    "walkspeed": -0.05,
+                    "manipulationSpeed": -0.05,
+                    "steadyAim": -0.05,
+                    "healingeffectivness": -0.09,
+                    "hungerrate": 0.09
+                }
+            },
+            "armor-head-chain-valyriansteel": {
+                "Layers": [
+                    "Outer",
+                    "Middle",
+                    "Skin"
+                ],
+                "Zones": [
+                    "Head",
+                    "Neck",
+                    "Face"
+                ],
+                "Resists": {
+                    "PiercingAttack": 0,
+                    "SlashingAttack": 1,
+                    "BluntAttack": 1
+                },
+                "FlatReduction": {},
+                "PlayerStats": {
+                    "walkspeed": -0.05,
+                    "manipulationSpeed": -0.05,
+                    "steadyAim": -0.05,
+                    "healingeffectivness": -0.09,
+                    "hungerrate": 0.09
+                }
+            },
+            
+            "armor-body-chain-valyriansteel": {
+                "Layers": [
+                    "Outer",
+                    "Middle",
+                    "Skin"
+                ],
+                "Zones": [
+                    "Torso",
+                    "Arms",
+                    "Hands"
+                ],
+                "Resists": {
+                    "PiercingAttack": 0,
+                    "SlashingAttack": 1,
+                    "BluntAttack": 1
+                },
+                "FlatReduction": {},
+                "PlayerStats": {
+                    "walkspeed": -0.05,
+                    "manipulationSpeed": -0.05,
+                    "steadyAim": -0.05,
+                    "healingeffectivness": -0.09,
+                    "hungerrate": 0.09
+                }
+            },
+            "armor-legs-chain-valyriansteel": {
+                "Layers": [
+                    "Outer",
+                    "Middle",
+                    "Skin"
+                ],
+                "Zones": [
+                    "Legs",
+                    "Feet"
+                ],
+                "Resists": {
+                    "PiercingAttack": 0,
+                    "SlashingAttack": 1,
+                    "BluntAttack": 1
+                },
+                "FlatReduction": {},
+                "PlayerStats": {
+                    "walkspeed": -0.05,
+                    "manipulationSpeed": -0.05,
+                    "steadyAim": -0.05,
+                    "healingeffectivness": -0.09,
+                    "hungerrate": 0.09
+                }
+            },
+
+            "armor-head-scale-valyriansteel": {
+                "Layers": [
+                    "Outer",
+                    "Middle",
+                    "Skin"
+                ],
+                "Zones": [
+                    "Head",
+                    "Neck",
+                    "Face"
+                ],
+                "Resists": {
+                    "PiercingAttack": 0,
+                    "SlashingAttack": 1,
+                    "BluntAttack": 1
+                },
+                "FlatReduction": {},
+                "PlayerStats": {
+                    "walkspeed": -0.05,
+                    "manipulationSpeed": -0.05,
+                    "steadyAim": -0.05,
+                    "healingeffectivness": -0.09,
+                    "hungerrate": 0.09
+                }
+            },
+            "armor-body-scale-valyriansteel": {
+                "Layers": [
+                    "Outer",
+                    "Middle",
+                    "Skin"
+                ],
+                "Zones": [
+                    "Torso",
+                    "Arms",
+                    "Hands"
+                ],
+                "Resists": {
+                    "PiercingAttack": 0,
+                    "SlashingAttack": 1,
+                    "BluntAttack": 1
+                },
+                "FlatReduction": {},
+                "PlayerStats": {
+                    "walkspeed": -0.05,
+                    "manipulationSpeed": -0.05,
+                    "steadyAim": -0.05,
+                    "healingeffectivness": -0.09,
+                    "hungerrate": 0.09
+                }
+            },
+            "armor-legs-scale-valyriansteel": {
+                "Layers": [
+                    "Outer",
+                    "Middle",
+                    "Skin"
+                ],
+                "Zones": [
+                    "Legs",
+                    "Feet"
+                ],
+                "Resists": {
+                    "PiercingAttack": 0,
+                    "SlashingAttack": 1,
+                    "BluntAttack": 1
+                },
+                "FlatReduction": {},
+                "PlayerStats": {
+                    "walkspeed": -0.05,
+                    "manipulationSpeed": -0.05,
+                    "steadyAim": -0.05,
+                    "healingeffectivness": -0.09,
+                    "hungerrate": 0.09
+                }
+            },
+
+            "armor-head-plate-valyriansteel": {
+                "Layers": [
+                    "Outer",
+                    "Middle",
+                    "Skin"
+                ],
+                "Zones": [
+                    "Head",
+                    "Neck",
+                    "Face"
+                ],
+                "Resists": {
+                    "PiercingAttack": 0,
+                    "SlashingAttack": 1,
+                    "BluntAttack": 1
+                },
+                "FlatReduction": {},
+                "PlayerStats": {
+                    "walkspeed": -0.05,
+                    "manipulationSpeed": -0.05,
+                    "steadyAim": -0.05,
+                    "healingeffectivness": -0.09,
+                    "hungerrate": 0.09
+                }
+            },
+            "armor-body-plate-valyriansteel": {
+                "Layers": [
+                    "Outer",
+                    "Middle",
+                    "Skin"
+                ],
+                "Zones": [
+                    "Torso",
+                    "Arms",
+                    "Hands"
+                ],
+                "Resists": {
+                    "PiercingAttack": 0,
+                    "SlashingAttack": 1,
+                    "BluntAttack": 1
+                },
+                "FlatReduction": {},
+                "PlayerStats": {
+                    "walkspeed": -0.05,
+                    "manipulationSpeed": -0.05,
+                    "steadyAim": -0.05,
+                    "healingeffectivness": -0.09,
+                    "hungerrate": 0.09
+                }
+            },
+            "armor-legs-plate-valyriansteel": {
+                "Layers": [
+                    "Outer",
+                    "Middle",
+                    "Skin"
+                ],
+                "Zones": [
+                    "Legs",
+                    "Feet"
+                ],
+                "Resists": {
+                    "PiercingAttack": 0,
+                    "SlashingAttack": 1,
+                    "BluntAttack": 1
+                },
+                "FlatReduction": {},
+                "PlayerStats": {
+                    "walkspeed": -0.05,
+                    "manipulationSpeed": -0.05,
+                    "steadyAim": -0.05,
+                    "healingeffectivness": -0.09,
+                    "hungerrate": 0.09
+                }
+            },
+                }
+            }
+        ]
+    },
+
+    {
+        "file": "game:itemtypes/wearable/seraph/armor",
+        "op": "addmerge",
+        "path": "/durabilityByType",
+        "value": {
+            "armor-head-brigandine-valyriansteel": 1000,
+            "armor-body-brigandine-valyriansteel": 1000,
+            "armor-legs-brigandine-valyriansteel": 1000,
+
+            "armor-head-chain-valyriansteel": 1000,
+            "armor-body-chain-valyriansteel": 1000,
+            "armor-legs-chain-valyriansteel": 1000,
+
+            "armor-head-scale-valyriansteel": 1000,
+            "armor-body-scale-valyriansteel": 1000,
+            "armor-legs-scale-valyriansteel": 1000,
+            
+            "armor-head-plate-valyriansteel": 1000,
+            "armor-body-plate-valyriansteel": 1000,
+            "armor-legs-plate-valyriansteel": 1000,
+        }
+    }
+]
