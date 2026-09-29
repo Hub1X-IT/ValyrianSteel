@@ -1,0 +1,213 @@
+[
+    {
+        "file": "game:itemtypes/tool/spear",
+        "op": "addmerge",
+        "path": "/skipVariants/-",
+        "value": "@spear-generic-valyriansteel"
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "addmerge",
+        "path": "/variantgroups/1/states",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "combatoverhaul:entities/spear",
+        "op": "addmerge",
+        "path": "/variantgroups/1/states",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "combatoverhaul:entities/spear",
+        "op": "addmerge",
+        "path": "/client/shapeByType",
+        "value": {
+            "@spear-generic-(valyriansteel)": { "base": "combatoverhaul:weapons/spears/spear-{material}" }
+        }
+    },
+    {
+        "file": "combatoverhaul:entities/spear",
+        "op": "addmerge",
+        "path": "/client/texturesByType",
+        "value": {
+            "@spear-generic-(valyriansteel)": {
+                "ingot": { "base": "game:block/metal/ingot/valyriansteel" }
+            }
+        }
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/attributes/DamageStatTemplates/1h-spearhead/TierByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "addmerge",
+        "path": "/attributes/DamageStatTemplates/1h-spearhead/TierByType",
+        "value": {
+            "*-valyriansteel": 7
+        }
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/DamageStatTemplates/1h-spearhead/TierByType/*"
+    },
+    
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/attributes/DamageStatTemplates/1.5h-spearhead/TierByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "addmerge",
+        "path": "/attributes/DamageStatTemplates/1.5h-spearhead/TierByType",
+        "value": {
+            "*-valyriansteel": 7
+        }
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/DamageStatTemplates/1.5h-spearhead/TierByType/*"
+    },
+    
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/attributes/DamageStatTemplates/2h-spearhead/TierByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "addmerge",
+        "path": "/attributes/DamageStatTemplates/2h-spearhead/TierByType",
+        "value": {
+            "*-valyriansteel": 7
+        }
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/DamageStatTemplates/2h-spearhead/TierByType/*"
+    },
+
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/attributes/Modes/dynamic/ThrowAttack/DamageStrengthByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "addmerge",
+        "path": "/attributes/Modes/dynamic/ThrowAttack/DamageStrengthByType",
+        "value": {
+            "*-valyriansteel": 7
+        }
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/Modes/dynamic/ThrowAttack/DamageStrengthByType/*"
+    },
+
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/attributes/Modes/throw/ThrowAttack/DamageStrengthByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "addmerge",
+        "path": "/attributes/Modes/throw/ThrowAttack/DamageStrengthByType",
+        "value": {
+            "*-valyriansteel": 7
+        }
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/attributes/Modes/throw/ThrowAttack/DamageStrengthByType/*"
+    },
+
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/durabilitybytype/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "addmerge",
+        "path": "/durabilitybytype",
+        "value": {
+            "*-valyriansteel": 1500
+        }
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/durabilitybytype/*"
+    },
+    
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/behaviorsByType/*/1/properties/stats/DamageStatsByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "addmerge",
+        "path": "/behaviorsByType/*/1/properties/stats/DamageStatsByType",
+        "value": {
+            "*-valyriansteel": {
+                "DamageType": "PiercingAttack",
+                "Damage": 7
+            }
+        }
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/behaviorsByType/*/1/properties/stats/DamageStatsByType/*"
+    },
+
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "addmerge",
+        "path": "/behaviorsByType/*/1/properties/stats/DropChance",
+        "value": 1
+    },
+    
+    {
+        "file": "game:itemtypes/combatoverhaul/spear",
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "@spear-generic-(valyriansteel)": {
+                "steel": {
+                    "base": "game:block/metal/ingot/valyriansteel"
+                },
+                "string": {
+                    "base": "game:item/resource/string"
+                },
+                "handle": {
+                    "base": "game:item/tool/handle"
+                }
+            }
+        }
+    }
+]

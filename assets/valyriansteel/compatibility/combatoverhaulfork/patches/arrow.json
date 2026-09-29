@@ -1,6 +1,18 @@
 [
     {
+        "file": "game:itemtypes/tool/arrow",
+        "op": "addmerge",
+        "path": "/skipVariants/-",
+        "value": "*-valyriansteel"
+    },
+    {
         "file": "game:itemtypes/combatoverhaul/arrow",
+        "op": "addmerge",
+        "path": "/variantgroups/0/states",
+        "value": [ "valyriansteel" ]
+    },
+    {
+        "file": "combatoverhaul:entities/arrow",
         "op": "addmerge",
         "path": "/variantgroups/0/states",
         "value": [ "valyriansteel" ]
@@ -8,37 +20,36 @@
     {
         "file": "game:itemtypes/combatoverhaul/arrow",
         "op": "addmerge",
-        "path": "/behaviors",
-        "value": [
-            {
-                "name": "CombatOverhaul:Projectile",
-                "properties": {
-                    "stats": {
-                        "AdditionalDurabilityCostByType": {
-                            "valyriansteel": 0
-                        },
-                        "CollisionRadius": 0.02,
-                        "PenetrationDistance": 0.1,
-                        "DamageStatsByType": {
-                            "*-valyriansteel": {
-                                "DamageType": "SlashingAttack",
-                                "Damage": 4
-                            },
-                        },
-                        "DamageTierBonusByType": {
-                            "*-valyriansteel": 4
-                        },
-                        "SpeedThreshold": 0.3,
-                        "Knockback": 0.5,
-                        "EntityCode": "combatoverhaul:arrow-{material}",
-                        "HitSound": "game:sounds/player/projectilehit",
-                        "DurabilityDamage": 0,
-                        "DropChanceByType": {
-                            "*-valyriansteel": 0.999
-                        }
-                    }
-                }
+        "path": "/behaviors/1/properties/stats/AdditionalDurabilityCostByType",
+        "value": {
+            "*-valyriansteel": 0
+        }
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/arrow",
+        "op": "addmerge",
+        "path": "/behaviors/1/properties/stats/DamageStatsByType",
+        "value": {
+            "*-valyriansteel": {
+                "DamageType": "SlashingAttack",
+                "Damage": 4
             }
-        ]
+        }
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/arrow",
+        "op": "addmerge",
+        "path": "/behaviors/1/properties/stats/DamageTierBonusByType",
+        "value": {
+            "*-valyriansteel": 4
+        }
+    },
+    {
+        "file": "game:itemtypes/combatoverhaul/arrow",
+        "op": "addmerge",
+        "path": "/behaviors/1/properties/stats/DropChanceByType",
+        "value": {
+            "*-valyriansteel": 0.999
+        }
     }
 ]

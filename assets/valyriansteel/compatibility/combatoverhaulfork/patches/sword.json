@@ -1,9 +1,9 @@
 [
     {
         "file": "game:itemtypes/combatoverhaul/sword.json",
-        "op": "addeach",
+        "op": "addmerge",
         "path": "/variantgroups/1/states/-",
-        "value": [ "valyriansteel" ],
+        "value": "valyriansteel"
     },
     {
         "file": "game:itemtypes/combatoverhaul/sword.json",
